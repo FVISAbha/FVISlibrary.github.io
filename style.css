@@ -1,0 +1,15 @@
+
+/* Using background properties */
+div {
+    background-color: lightblue;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: centeral;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+   
+   /* Using background shorthand */
+   div {
+    background: lightblue url('bgr.jpg') no-repeat centeral fixed cover;
+   }
